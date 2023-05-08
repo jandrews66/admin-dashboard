@@ -13,6 +13,7 @@
     background-color: white;
     grid-column: 2 / 4;
     display: grid;
+    box-shadow: 0 10px 6px -6px #9b9b9b;
   }
 
 .header-top {
@@ -80,13 +81,21 @@ li > img {
     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
             filter: invert(100%);
 }
-.projects {
+.projects-section {
+    padding: 15px;
     background-color: rgb(241, 241, 241);
+}
+
+.projects-section h2 {
+    margin: 20px 0px;
+
+
+}
+.projects {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
-    padding: 15px;
 
 }
 
@@ -114,6 +123,11 @@ li > img {
     
 }
 
+
+.announce-section h2 {
+    margin: 20px 0px;
+}
+
 .announcements {
     background-color: white;
     grid-row: 1 / 2;
@@ -128,6 +142,9 @@ li > img {
     padding-bottom: 15px;
 }
 
+.trending-section h2 {
+    margin: 20px 0px;
+}
 .trending {
     background-color: white;
     grid-row: 2 / 3;
@@ -155,7 +172,9 @@ img[src$='.png']{
 }
 
 .title {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
 
 .trend {
